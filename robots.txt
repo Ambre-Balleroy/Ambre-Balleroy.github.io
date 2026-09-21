@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Ambre-Balleroy.github.io/Ambre-Balleroy/sitemap.xml
+Sitemap: https://Ambre-Balleroy.github.io/sitemap.xml
