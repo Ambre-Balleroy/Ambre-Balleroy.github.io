@@ -1,10 +1,13 @@
 cv:
   name: Ambre Balleroy
+  label: PhD candidate in Computational Cognitive Science
   headline: PhD candidate in Computational Cognitive Science
-  location: Marseille, France
   email: ambre.balleroy@etu.univ-amu.fr
   phone: "+33695482208"
-  website:
+  location: Marseille, France
+  address:
+    city: Marseille
+    region: France
   social_networks:
     - network: ORCID
       username: '0009-0003-2571-320X'
@@ -14,18 +17,21 @@ cv:
       username: ambre-balleroy-6a5717223
 
   sections:
+    # Plain text/section heading is not rendered by the plugin, so the paragraph is
+    # carried as a bullet (rendered markdownified -> *italics* and links work).
     Research Interests:
-      - >-
-        I am a PhD candidate in computational cognitive science expecting to graduate in early
-        2027. My doctoral research lies at the intersection of early language acquisition, speech
-        perception, machine learning, and auditory neuroscience. More specifically, I conduct
-        computational simulations of early phonetic learning in fetuses and newborns. Although I
-        have mainly used computational methods in my recent work, I would like to return to
-        empirical research in my next position.
+      - bullet: >-
+          I am a PhD candidate in computational cognitive science expecting to graduate in early
+          2027. My doctoral research lies at the intersection of early language acquisition,
+          speech perception, machine learning, and auditory neuroscience. More specifically, I
+          conduct computational simulations of early phonetic learning in fetuses and newborns.
+          Although I have mainly used computational methods in my recent work, I would like to
+          return to empirical research in my next position.
 
-    Research Experience:
-      - company: >-
-          Aix-Marseille Université (LIS / CRPN / ILCB)
+    # "Experience" is a special section: the plugin renders company/position/date/location/
+    # summary/highlights and auto-sorts by date. Do not rename it.
+    Experience:
+      - company: Aix-Marseille Université (LIS / CRPN / ILCB)
         position: PhD Candidate
         start_date: 2023-10
         end_date: present
@@ -39,11 +45,9 @@ cv:
           - >-
             Modeled fetal auditory learning in a simulated prenatal acoustic environment using
             machine learning.
-          - >-
-            Prepared speech corpora for simulations.
+          - Prepared speech corpora for simulations.
 
-      - company: >-
-          Laboratoire d'Informatique et Systèmes
+      - company: Laboratoire d'Informatique et Systèmes
         position: Intern in Auditory Neuroscience
         start_date: 2023-02
         end_date: 2023-06
@@ -51,146 +55,108 @@ cv:
         summary: >-
           Supervisors: Drs. Thomas Schatz, Clément François & Benjamin Morillon
         highlights:
-          - >-
-            Pre-processed EEG datasets.
-          - >-
-            Conducted Temporal Response Function (TRFs) analysis on EEG datasets.
+          - Pre-processed EEG datasets.
+          - Conducted Temporal Response Function (TRFs) analysis on EEG datasets.
 
-      - company: >-
-          Laboratoire Parole et Langage
+      - company: Laboratoire Parole et Langage
         position: Intern in Experimental Psycholinguistics (part-time)
         start_date: 2022-01
         end_date: 2022-06
         location: Aix-en-Provence, France
-        summary: >-
-          Supervisor: Dr. Cheryl Frenck-Mestre
+        summary: "Supervisor: Dr. Cheryl Frenck-Mestre"
         highlights:
           - >-
             Internship report: *Perception of second language phonemic contrasts in lexical
             context: an event-related potentials study*.
-          - >-
-            Recruited and tested participants for an EEG experiment.
+          - Recruited and tested participants for an EEG experiment.
 
-      - company: >-
-          Laboratoire Parole et Langage
+      - company: Laboratoire Parole et Langage
         position: Intern in Natural Language Processing
         start_date: 2021-05
         end_date: 2021-06
         location: Aix-en-Provence, France
-        summary: >-
-          Supervisor: Professor Núria Gala
+        summary: "Supervisor: Professor Núria Gala"
         highlights:
           - >-
             Conducted a pilot study to assess the linguistic complexity of a corpus of
             health-related documents.
 
     Education:
-      - institution: >-
-          Aix-Marseille Université (LIS / CRPN / ILCB)
+      - institution: Aix-Marseille Université (LIS / CRPN / ILCB)
         area: Computer Science
         degree: PhD
-        date: '2023 - present'
+        start_date: 2023-10
+        end_date: present
         location: Marseille, France
         summary: >-
           Supervisors: Drs. Thomas Schatz, Claire Kabdebon & Ricard Marxer
 
-      - institution: >-
-          Aix-Marseille Université
-        area: >-
-          Cognitive Science - Language, Communication and the Brain
+      - institution: Aix-Marseille Université
+        area: Cognitive Science - Language, Communication and the Brain
         degree: MSc
-        date: '2021 - 2023'
+        start_date: 2021-09
+        end_date: 2023-09
         location: Marseille, France
         highlights:
           - >-
             Thesis: *Using naturalistic speech EEG recordings to test the cognitive reality of
             representations suggested by a computational model of early phonetic learning*
             ([manuscript](https://dumas.ccsd.cnrs.fr/dumas-04347612)).
-          - >-
-            Thesis supervisor: Dr. Thomas Schatz
+          - "Thesis supervisor: Dr. Thomas Schatz"
 
-      - institution: >-
-          Aix-Marseille Université
+      - institution: Aix-Marseille Université
         area: Linguistics
         degree: BA
-        date: '2018 - 2021'
+        start_date: 2018-09
+        end_date: 2021-09
         location: Aix-en-Provence, France
         highlights:
-          - >-
-            Minor: Teaching French as a Foreign Language
+          - "Minor: Teaching French as a Foreign Language"
 
-  
-    Peer-Reviewed Publications:
-    - title: The Fetal Acoustic Environment may be too Noisy for Prenatal Phonetic Learning from External Sources
-      authors:
-        - '*Balleroy, A.*'
-        - Kabdebon, C.
-        - Marxer, R.
-        - Schatz, T.
-      journal: Proceedings of the Annual Meeting of the Cognitive Science Society
-      date: '2026'
-#     doi: '10.xxxx/yyyy'
-
-    Preprints and Manuscripts in Preparation:
+    # "Publications" is special: renders title / publisher / summary. The plugin does not
+    # print `authors`, so they are repeated inside `summary` for the web page.
+    Publications:
       - title: >-
           A review on the effect of the maternal voice on early language acquisition
         authors:
           - Kepinska, O.
           - '*Balleroy, A.*'
           - Schatz, T.
-        summary: >-
-          Manuscript in preparation (working title)
+        journal: Manuscript in preparation
+        publisher: >-
+          Kepinska, O., **Balleroy, A.**, & Schatz, T. (2026). Manuscript in preparation
+          (working title).
         date: '2026'
 
     Oral Presentations:
-      - name: >-
-          The Fetal Acoustic Environment may be too Noisy for Prenatal Phonetic Learning from
-          External Sources
-        date: '2026'
-        location: Rio de Janeiro, Brazil
-        summary: >-
-          Remote conference talk, Annual Meeting of the Cognitive Science Society
+      - bullet: >-
+          **Balleroy, A.** (2026). *The Fetal Acoustic Environment may be too Noisy for Prenatal
+          Phonetic Learning from External Sources* \[Remote conference talk\]. _Annual Meeting of
+          the Cognitive Science Society_, Rio de Janeiro, Brazil.
+      - bullet: >-
+          **Balleroy, A.** (2026). *The Fetal Acoustic Environment may be too Noisy for Prenatal
+          Phonetic Learning from External Sources* \[Local invited talk\]. ILCB Docs and Postdocs
+          Workshop, Marseille, France.
+      - bullet: >-
+          **Balleroy, A.** (2025). *Modeling the effect of the prenatal acoustic environment on
+          early phonetic learning* \[Invited talk\]. _Computational Neuroscience Seminars_,
+          University of Maryland, College Park, United States.
+      - bullet: >-
+          **Balleroy, A.** (2025). *Modeling the effect of the prenatal acoustic environment on
+          early phonetic learning* \[Poster\]. _Society for Research in Child Development
+          Biennial Meeting (SRCD)_, Minneapolis, United States.
+          [Poster](https://amu.hal.science/ILCB/hal-05497420v1).
+      - bullet: >-
+          **Balleroy, A.** (2025). *Modeling the effect of the prenatal acoustic environment on
+          early phonetic learning* \[Local invited talk\]. ILCB Docs and Postdocs Workshop,
+          Marseille, France.
+      - bullet: >-
+          **Balleroy, A.** (2024). *What is the nature of early speech sounds representations? A
+          large-scale computational modeling study* \[Local invited talk\]. ILCB Docs and
+          Postdocs Workshop, Marseille, France.
 
-      - name: >-
-          The Fetal Acoustic Environment may be too Noisy for Prenatal Phonetic Learning from
-          External Sources
-        date: '2026'
-        location: Marseille, France
-        summary: >-
-          Local invited talk, ILCB Docs and Postdocs Workshop
-
-      - name: >-
-          Modeling the effect of the prenatal acoustic environment on early phonetic learning
-        date: '2025'
-        location: College Park, United States
-        summary: >-
-          Invited talk, Computational Neuroscience Seminars, University of Maryland
-
-      - name: >-
-          Modeling the effect of the prenatal acoustic environment on early phonetic learning
-        date: '2025'
-        location: Minneapolis, United States
-        summary: >-
-          Poster presentation, Society for Research in Child Development Biennial Meeting (SRCD)
-        highlights:
-          - >-
-            [Poster](https://amu.hal.science/ILCB/hal-05497420v1)
-
-      - name: >-
-          Modeling the effect of the prenatal acoustic environment on early phonetic learning
-        date: '2025'
-        location: Marseille, France
-        summary: >-
-          Local invited talk, ILCB Docs and Postdocs Workshop
-
-      - name: >-
-          What is the nature of early speech sounds representations? A large-scale computational
-          modeling study
-        date: '2024'
-        location: Marseille, France
-        summary: >-
-          Local invited talk, ILCB Docs and Postdocs Workshop
-
+    # Deliberately NOT named "Skills"/"Languages": the plugin's special templates need
+    # name/level/keywords, while `label`/`details` render through the generic fallback.
     Technical Skills:
       - label: Programming
         details: Python, R
@@ -226,62 +192,44 @@ cv:
         details: Reliable, Taiga.io, SuperProductivity
 
     Teaching and Supervision Experience:
-      - company: >-
-          Computer Science Department, Aix-Marseille Université
-        position: Teaching Assistant
-        start_date: 2024-10
-        end_date: 2025-08
-        location: Marseille, France
-        highlights:
-          - >-
-            Bachelor level classes: Introductory Data Science (52h), Introductory Machine
-            Learning (12h).
-          - >-
-            Taught lab classes, corrected and created assignments, supervised students' projects,
-            managed schedule.
-
-      - company: >-
-          Aix-Marseille Université
-        position: Associate Supervisor
-        date: '2025'
-        location: Marseille, France
-        highlights:
-          - >-
-            Student: Encina Robles Paula, Erasmus intern in MSc Psychology
+      - bullet: >-
+          **Teaching Assistant**, Computer Science Department, Aix-Marseille Université, Marseille,
+          France (October 2024 - August 2025). Bachelor level classes: Introductory Data Science
+          (52h), Introductory Machine Learning (12h). Taught lab classes, corrected and created
+          assignments, supervised students' projects, managed schedule.
+      - bullet: >-
+          **Associate Supervisor**, Aix-Marseille Université, Marseille, France (2025). Student:
+          Encina Robles Paula, Erasmus intern in MSc Psychology.
 
     Service:
-      - name: Article peer-review
-        date: '2024'
-        highlights:
-          - >-
-            Co-review with supervisor for the *Proceedings of the Annual Meeting of the Cognitive
-            Science Society*.
+      - bullet: >-
+          **Article peer-review** (2024): co-review with supervisor for the _Proceedings of the
+          Annual Meeting of the Cognitive Science Society_.
 
     Other Relevant Experience:
-      - company: >-
-          Association Autigirls
-        position: Cognitive Science Consultant for an Upcoming Podcast
-        date: '2026 - present'
-        location: Marseille, France
+      - bullet: >-
+          **Cognitive Science Consultant for an Upcoming Podcast**, Association Autigirls,
+          Marseille, France (2026 - present).
+      - bullet: >-
+          **Science Communicator in High Schools and Middle Schools**, Genre de Science Project -
+          Labo Sociétal - École Centrale Méditerranée, Marseille, France (2024).
 
-      - company: >-
-          Genre de Science Project - Labo Sociétal - École Centrale Méditerranée
-        position: Science Communicator in High Schools and Middle Schools
-        date: '2024'
-        location: Marseille, France
-
-    Fellowships, Grants and Awards:
+    # "Awards" is special: renders title / awarder / summary with a date badge.
+    # `name` is the RenderCV NormalEntry key, `title` the Al-Folio one.
+    Awards:
       - name: >-
           Travel grant for the SRCD Biennial Meeting and research stay at the University of
           Maryland (3050 EUR)
+        title: >-
+          Travel grant for the SRCD Biennial Meeting and research stay at the University of
+          Maryland (3050 EUR)
         date: '2025'
-        summary: >-
+        awarder: >-
           ILCB, LIS, Allocation Mobilité Internationale ED 184, Qarma Team
-
       - name: 3-year ILCB PhD Fellowship
+        title: 3-year ILCB PhD Fellowship
         date: '2023'
-        summary: >-
-          Institute of Language, Communication and the Brain
+        awarder: Institute of Language, Communication and the Brain
 
     Professional Affiliations:
       - label: Cognitive Science Society
@@ -290,27 +238,19 @@ cv:
         details: Member (May 2025 - May 2026)
 
     Professional Development and Trainings:
-      - label: >-
-          Teaching Assistant Training (25h)
-        details: >-
-          Center for Innovations in Pedagogy, Aix-Marseille Université, 2025
-      - label: >-
-          Mental Health First Aid Certificate (14h)
+      - label: Teaching Assistant Training (25h)
+        details: Center for Innovations in Pedagogy, Aix-Marseille Université, 2025
+      - label: Mental Health First Aid Certificate (14h)
         details: PSSM France, May 2025
-      - label: >-
-          Computational Neuroscience Online Summer School (3 weeks)
+      - label: Computational Neuroscience Online Summer School (3 weeks)
         details: Neuromatch Academy, July 2024
-      - label: >-
-          Scientific Integrity in Research MOOC (10h)
+      - label: Scientific Integrity in Research MOOC (10h)
         details: FUN Campus, June 2024
-      - label: >-
-          Open Science MOOC (3h)
+      - label: Open Science MOOC (3h)
         details: June 2024
-      - label: >-
-          Ethics for Research MOOC (10h)
+      - label: Ethics for Research MOOC (10h)
         details: FUN Campus, June 2024
-      - label: >-
-          Introduction to R Software, Statistics and Multivariate Analysis MOOC (10h)
+      - label: Introduction to R Software, Statistics and Multivariate Analysis MOOC (10h)
         details: June 2024
       - label: >-
           Gender Equality in Academic and Professional Settings - The Effects of Gender
@@ -319,44 +259,25 @@ cv:
       - label: >-
           Strategic Communication - Making Your Research Accessible to Your Target Audience (16h)
         details: January 2024
-      - label: >-
-          Preventing Violence and Harassment (6h)
+      - label: Preventing Violence and Harassment (6h)
         details: December 2023
-      - label: >-
-          Experimental Methodology for Computer Science (24h)
+      - label: Experimental Methodology for Computer Science (24h)
         details: November 2023
-      - label: >-
-          DESU Data Science Applied to Neuroscience (3 weeks)
+      - label: DESU Data Science Applied to Neuroscience (3 weeks)
         details: Institut NeuroMarseille, July 2023
-      - label: >-
-          ILCB Summer School (1 week)
+      - label: ILCB Summer School (1 week)
         details: '2021, 2023'
-      - label: >-
-          TOEIC Listening and Reading Test, 975 points
+      - label: TOEIC Listening and Reading Test, 975 points
         details: ETS EMEA, January 2021
 
     Language Skills:
       - label: French
         details: Native
       - label: English
-        details: 'C2 - TOEIC Listening and Reading Test, 975 points'
+        details: C2 - TOEIC Listening and Reading Test, 975 points
       - label: Italian
         details: B2
       - label: Japanese
         details: B1
       - label: German
         details: A2
-
-design:
-  theme: classic
-  typography:
-    small_caps:
-      name: true
-      section_titles: true
-
-locale:
-  language: english
-
-settings:
-  current_date: today
-  bold_keywords: []
