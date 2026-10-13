@@ -5,7 +5,7 @@ cv_format: rendercv
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: CV_SNL.pdf # you can also use external links here
+#cv_pdf: CV_SNL.pdf # you can also use external links here
 description: Curriculum vitae
 toc:
   sidebar: left
