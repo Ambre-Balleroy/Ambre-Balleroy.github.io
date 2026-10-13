@@ -1,5 +1,4 @@
 ---
-layout: cv
 permalink: /cv/
 layout: cv
 cv_format: rendercv

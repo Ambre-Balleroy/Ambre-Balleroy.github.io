@@ -1,10 +1,10 @@
-"schatz":
-  - firstname: ["Thomas", "T."]
-    url: https://thomas.schatz.cogserver.net/
-
 "marxer":
   - firstname: ["Ricard", "R."]
     url: https://www.ricardmarxer.com/
+
+"schatz":
+  - firstname: ["Thomas", "T."]
+    url: https://thomas.schatz.cogserver.net/
 
 "kabdebon":
   - firstname: ["Claire", "C."]
