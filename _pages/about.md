@@ -27,7 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My interdisciplinary backgound spans linguistics, cognitive science, and machine learning. I plan to defend my PhD in early 2027, and will be looking for a postdoc position in Europe.
+I am a Ph.D. candidate in computational cognitive science exploring speech perception develops at the earliest stages of human development using machine learning. My doctoral research lies at the intersection of early language acquisition, speech perception, computer science, and auditory neuroscience. Although I have mainly used computational methods in my recent work, I would like to return to empirical research in my next position. 
+
+I plan to graduate around April 2027, and I am open to postdoc opportunities in Europe. 
 
 I am affiliated to the following institutions:
 - [Laboratoire d'Informatique et des Systèmes](https://www.lis-lab.fr/) ([Qarma team](https://qarma.lis-lab.fr/))
