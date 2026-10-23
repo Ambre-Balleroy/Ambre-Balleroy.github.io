@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: My ongoing and past project, and theur respective outcomes.
+description: My ongoing and past project, and their respective outcomes.
 nav: true
 nav_order: 3
 display_categories: [PhD, other]

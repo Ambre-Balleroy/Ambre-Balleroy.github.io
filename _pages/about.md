@@ -29,9 +29,11 @@ latest_posts:
 
 I am a Ph.D. candidate in computational cognitive science exploring speech perception develops at the earliest stages of human development using machine learning. My doctoral research lies at the intersection of early language acquisition, speech perception, computer science, and auditory neuroscience. Although I have mainly used computational methods in my recent work, I would like to return to empirical research in my next position. 
 
-I plan to graduate around April 2027, and I am open to postdoc opportunities in Europe. 
+I plan to defend my PhD around April 2027, and will be open to postdoc opportunities in Europe. 
 
 I am affiliated to the following institutions:
 - [Laboratoire d'Informatique et des Systèmes](https://www.lis-lab.fr/) ([Qarma team](https://qarma.lis-lab.fr/))
 - [Centre de Recherche en Psychologie et Neurosciences](https://crpn.univ-amu.fr/fr) ([Déphy team](https://crpn.univ-amu.fr/fr/equipes/dephy-developpement-et-phylogenie))
 - [Institute of Language, Communication and the Brain](https://www.ilcb.fr/), which funds my PhD.
+
+Not a French speaker and wondering how to pronounce my name? [Click here to listen to it!](https://namedrop.io/ambre_balleroy).
