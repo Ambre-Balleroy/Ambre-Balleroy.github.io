@@ -4,7 +4,7 @@ title: Modeling early phonetic learning in the prenatal acoustic environment
 description: The final product of my doctoral work.
 img: assets/img/approach.drawio.png
 importance: 1
-category: PhD
+category: phd
 related_publications: true
 ---
 

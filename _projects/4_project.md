@@ -4,7 +4,7 @@ title: Extending simulations of early phonetic learning to a new language: Germa
 description: Using the HUI dataset
 #img: assets/img/spects_srcd.drawio.svg
 importance: 2
-category: PhD
+category: phd
 giscus_comments: false
 ---
 # Description
