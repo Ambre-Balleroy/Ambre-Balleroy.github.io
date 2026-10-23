@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "My ongoing and past project, and theur respective outcomes.",
+          description: "My ongoing and past project, and their respective outcomes.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -424,6 +424,11 @@ ninja.data = [{
           description: "My Master&#39;s thesis project!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
